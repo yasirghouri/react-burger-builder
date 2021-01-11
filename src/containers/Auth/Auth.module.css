@@ -1,0 +1,28 @@
+.Auth {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.Para {
+    padding: 0 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #8F5C2C;
+}
+
+.Error{
+    padding: 0 10px;
+    text-align: left;
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }    
+}
